@@ -11,7 +11,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+   <body>
+    <h1>Welcome to Library Management System</h1>
+    <a href="login.jsp">Login</a>
+    <a href="register.jsp">Register</a>
+</body>
 </html>
