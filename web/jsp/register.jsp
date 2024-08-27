@@ -12,6 +12,15 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-    </body>
+    <h2>Register</h2>
+    <form action="RegisterServlet" method="post">
+        Username: <input type="text" name="username" required><br>
+        Password: <input type="password" name="password" required><br>
+        Name: <input type="text" name="name" required><br>
+        Surname: <input type="text" name="surname" required><br>
+        Email: <input type="email" name="email" required><br>
+        Phone: <input type="tel" name="phone"><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
 </html>
