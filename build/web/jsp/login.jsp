@@ -13,7 +13,7 @@
     </head>
    <body>
     <h1>Login</h1>
-    <form action="LoginServlet" method="post">
+    <form action="${pageContext.request.contextPath}/LoginServlet" method="post">
         <label for="username">Username:</label><br>
         <input type="text" id="username" name="username" required><br><br>
 

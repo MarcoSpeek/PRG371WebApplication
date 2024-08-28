@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author mspee
  */
-public class LogoutServelet extends HttpServlet {
+public class LogoutServlet extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
