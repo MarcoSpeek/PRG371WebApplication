@@ -14,6 +14,6 @@
     <body>
     <h1>Welcome to Our Website</h1>
     <p><a href="${pageContext.request.contextPath}/jsp/login.jsp">Login</a></p>
-    <p><a href="${pageContext.request.contextPath}/jsp/login.jsp">Register</a></p>
+    <p><a href="${pageContext.request.contextPath}/jsp/register.jsp">Register</a></p>
 </body>
 </html>

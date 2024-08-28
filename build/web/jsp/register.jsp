@@ -13,7 +13,7 @@
     </head>
     <body>
     <h1>Register</h1>
-    <form action="RegisterServlet" method="post">
+    <form action="${pageContext.request.contextPath}/RegisterServlet" method="post">
         <label for="username">Username:</label><br>
         <input type="text" id="username" name="username" required><br><br>
 
